@@ -1,0 +1,19 @@
+{
+  "python": "3.10.22",
+  "openslide_library": "4.0.1",
+  "upstream_commit": "f35e518d875e3e3799f89a7aed4e766c5a9d35e4",
+  "packages": {
+    "numpy": "1.23.5",
+    "scipy": "1.10.0",
+    "scikit-learn": "1.2.1",
+    "scikit-image": "0.19.3",
+    "Pillow": "9.4.0",
+    "openslide-python": "1.4.6",
+    "tifffile": "2025.5.10",
+    "joblib": "1.6.0",
+    "matplotlib": "3.7.1"
+  },
+  "LOKY_MAX_CPU_COUNT": 4,
+  "OPENBLAS_NUM_THREADS": 1,
+  "OMP_NUM_THREADS": 1
+}
