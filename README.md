@@ -28,3 +28,7 @@ The native polygon manifest (native_fields.json) lists the two scanner files, pu
     LOKY_MAX_CPU_COUNT=4 OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MPLBACKEND=Agg python replay_scans.py /path/to/PLISM/slides new-receipts
 
 This optional path invokes the upstream whole-slide worker, records its registered mask windows after each pipeline operation, and verifies each final PNG hash and OpenSlide read sequence. One process shares its fitted classifiers across the 26 scans in filename order. The original files total roughly 41 GiB. The CSV and window reproductions above work offline without the WSIs. HistoQC and the input images are separately distributed by their authors.
+
+## Licence
+
+Code in this repository is MIT licensed (see LICENSE). Images, masks and figures derived from PLISM keep its CC BY 4.0 terms; HistoQC and the source scans are separately distributed by their authors under their own licences.
